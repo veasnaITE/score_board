@@ -1,0 +1,8 @@
+.more .more-chose {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.more:hover .more-chose {
+  display: block;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dangrek&family=Gabarito&family=Noto+Sans+Khmer:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <!-- Form -->
+    <div class="bg-gray-900">
+      <div
+        class="flex flex-col items-center px-6 py-8 mx-auto md:h-screen lg:py-32 justify-center"
+      >
+        <div
+          class="w-full bg-gray-800 rounded-xl shadow md:mt-0 sm:max-w-md xl:p-0"
+        >
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+            <h1
+              class="font-['Gabarito'] text-white font-semibold text-7xl leading-tight tracking-tight text-center"
+            >
+              The NUM
+            </h1>
+            <form class="space-y-4 md:space-y-6" action="#">
+              <div>
+                <label
+                  for="email"
+                  class="block mb-2 text-sm font-medium text-white"
+                  >User Name</label
+                >
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  class="bg-gray-700 border border-gray-800 text-white text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-800 block w-full p-2.5"
+                  placeholder="Please input username !"
+                  required=""
+                />
+              </div>
+              <div>
+                <label
+                  for="password"
+                  class="block mb-2 text-sm font-medium text-white"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Please input your password !"
+                  class="bg-gray-700 border border-gray-800 text-white text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-800 block w-full p-2.5"
+                  required=""
+                />
+              </div>
+              <button
+                type="submit"
+                class="w-full text-white font-['Gabarito'] bg-amber-700 hover:bg-amber-900 focus:outline-none focus:ring-2 focus:ring-amber-800 focus:bg-amber-900 font-medium rounded-xl text-sm px-5 py-2.5 text-center"
+              >
+                Sign in
+              </button>
+              <p class="text-sm font-light text-gray-400">
+                Don’t have an account yet?
+                <a href="#" class="font-medium text-gray-100 hover:underline"
+                  >Sign up</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
