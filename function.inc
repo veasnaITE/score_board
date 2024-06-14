@@ -4,4 +4,5 @@
 require_once("database.inc");
 //require_once("validation.inc");
 require_once("ClassStudent.php");
+require_once("ClassScore.php");
 ?>

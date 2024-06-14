@@ -51,7 +51,7 @@
 
     <!-- add now -->
     <div class="w-full p-5 bg-purple-600">
-      <form action="" class="flex flex-row justify-between mx-6 items-center">
+      <form action="add_score_process.php" class="flex flex-row justify-between mx-6 items-center">
         <div class="w-2/12">
           <label for="" class="text-white font-bold text-base">CLASS</label>
           <input type="text" class="w-11/12 outline-none rounded-lg py-2 px-4 text-sm font-sans focus:text-blue-800" />
