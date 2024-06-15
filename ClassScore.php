@@ -7,14 +7,13 @@ class ClassScore {
     public $subjectId;
     public $midtermScore;
     public $finalScore;
+    public $semester;
 
     public function __construct() {   
     }
-
     public function calculateTotalScore() {
         return $this->midtermScore + $this->finalScore;
     }
-
     public function calculateGrade() {
         $totalScore = $this->calculateTotalScore();
         $averageScore = $totalScore / 2;
@@ -29,11 +28,6 @@ class ClassScore {
         } else {
             return 'F';
         }
-    }
-
-    public function checkPass() {
-        $grade = $this->calculateGrade();
-        return $grade !== 'F';
     }
 }
 ?>
